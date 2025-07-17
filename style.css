@@ -729,14 +729,15 @@ p.copy-right {
     padding: 1rem;
   }
 
-  .nav-links {
+  .navbar-links {
     display: none;
     width: 100%;
     text-align: center;
-    gap: 1rem;
+    gap: 2rem;
+    margin-top: 2rem;
   }
 
-  .nav-links a {
+  .navbar-links a {
     color: white;
     font-size: 1rem;
   }
@@ -782,7 +783,22 @@ p.copy-right {
   footer .social-icons a {
     font-size: 1.2rem;
   }
+  div.project-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  a.btn{
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+  }
 }
+
 
 /* Extra Small Screens (very small devices like some mobile phones) */
 @media (max-width: 480px) {
