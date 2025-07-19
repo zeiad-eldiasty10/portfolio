@@ -220,8 +220,8 @@ body {
   background: #a855f7;
   border-radius: 50%;
   position: absolute;
-  left: -9px;
-  top: 5px;
+  left: -16px;
+  top: 1px;
 }
 
 .timeline-item span {
